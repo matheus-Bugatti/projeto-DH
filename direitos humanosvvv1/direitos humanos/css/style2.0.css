@@ -1,0 +1,127 @@
+
+body {
+    height: 2000px;
+}
+.header {
+    background: linear-gradient(90deg, #421A3B 0%, #78306B 53%, #A84395 100%);
+    display: flex;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+#logo-header {
+    padding-left: 20px;
+}
+.item {
+    color: white;
+    font-family: Poppins;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: 0.3s;
+}
+.item:hover {
+    display: flex;
+    justify-content: center;
+    background-color: #A84395;
+}
+.itens {
+    display: flex;
+    position: relative;
+    padding-left: 100px;
+}
+.arealog {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 100px;
+    align-self: center;
+    align-items: center;
+}
+.regis {
+    font-family: Poppins;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.entrar {
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+}
+.button {
+    background-color: #CE0EBB;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #421A3B;
+    border: 2px solid #CE0EBB;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 20px;
+    background-color: #A84395;
+    height: 750px;
+    width: 1200px;
+    border-radius: 20px;
+    border: 5px solid #421A3B;
+}
+.secaoC {
+    display: flex;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.secao {
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+.titulo {
+    color: white;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#titulob {
+    color: white;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+    display: none;
+}
+.titulo:hover {
+    padding-left: 20px;
+}
+.titulo:hover + #titulob {
+    display: inline-block;
+    padding-left: 20px;
+}
+.secaot {
+    color: #421A3B;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 23px;
+}
+.servicoslista {
+    color: #421A3B;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 23px;
+}
