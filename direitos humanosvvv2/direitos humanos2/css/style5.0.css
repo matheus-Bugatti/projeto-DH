@@ -214,63 +214,88 @@ auchbwubqcbwhadcbuhabwchbdhucbahudcba */
     opacity: 100%;
 }
 
-/* coiqh80cyqhcwudhqcwd0vuabdcabwvdbagwvuda
-        cartszudos
-vpoqw3f0cjnfvanfvhvuah0iufh0vwufhafvahfp */
+/* auchbwubqcbwhadcbuhabwchbdhucbahudcba
+        cartao
+auchbwubqcbwhadcbuhabwchbdhucbahudcba */
 
-.cart {
+.cartao-C {
+    display: grid;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cart1,
+.cart2,
+.cart3 {
     transition: 0.3s;
 }
 
-.sobreCart {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-    gap: 50px;
+.cart1 {
+    height: 500px;
 }
 
-.cartao {
+.cart2,
+.cart3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
+    padding-left: 30px;
     background-color: #f5f5f5;
     box-shadow: 0px 5px 10px 0px #f94181a8;
     border-radius: 10px;
-    width: 350px;
-    height: 600px;
-    transition: 0.3s;
+    width: 480px;
+    height: 250px;
 }
 
-.titulo {
+.tituloh3 {
     color: #F94181;
     font-family: poppins;
     font-weight: 700;
     font-size: 28px;
+    text-decoration: none;
     margin: 0px;
-    transition: 0.3s;
 }
 
-.elecart {
-    display: none;
+.eleCart {
+    align-self: center;
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.cartaoelem {
+    display: flex;
+    justify-content: center;
+}
+
+.textCart {
+    color: #0f0f0f;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.iconeCard {
+    align-self: flex-end;
+    padding-bottom: 30px;
+    height: 120px;
 }
 
 .visao {
     height: 85px;
+    padding-left: 30px;
 }
 
 .justica {
     height: 120px;
+    padding-left: 130px;
 }
 
-.cart:hover .cartao{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    box-shadow: 0px 5px 10px 0px #8B1840;
+.cart1:hover {
+    rotate: -3deg;
+}
+
+.cart2:hover {
+    rotate: 3deg;
 }
