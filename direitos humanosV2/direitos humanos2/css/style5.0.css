@@ -217,85 +217,10 @@ auchbwubqcbwhadcbuhabwchbdhucbahudcba */
 /* auchbwubqcbwhadcbuhabwchbdhucbahudcba
         cartao
 auchbwubqcbwhadcbuhabwchbdhucbahudcba */
-
-.cartao-C {
+.container-cartao {
     display: grid;
-    margin-top: 150px;
-    justify-content: center;
-    gap: 20px;
 }
-
-.cart1,
-.cart2,
-.cart3 {
-    transition: 0.3s;
-}
-
-.cart1 {
-    height: 500px;
-}
-
-.cart2,
-.cart3 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-left: 30px;
-    background-color: #f5f5f5;
-    box-shadow: 0px 5px 10px 0px #f94181a8;
-    border-radius: 10px;
-    width: 480px;
-    height: 250px;
-}
-
-.tituloh3 {
-    color: #F94181;
-    font-family: poppins;
-    font-weight: 700;
-    font-size: 28px;
-    text-decoration: none;
-    margin: 0px;
-}
-
-.eleCart {
-    align-self: center;
-    padding-top: 40px;
-    padding-right: 60px;
-}
-
-.cartaoelem {
-    display: flex;
-    justify-content: center;
-}
-
-.textCart {
-    color: #0f0f0f;
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-}
-
-.iconeCard {
-    align-self: flex-end;
-    padding-bottom: 30px;
-    height: 120px;
-}
-
-.visao {
-    height: 85px;
-    padding-left: 30px;
-}
-
-.justica {
-    height: 120px;
-    padding-left: 130px;
-}
-
-.cart1:hover {
-    rotate: -3deg;
-}
-
-.cart2:hover {
-    rotate: 3deg;
+.gc-item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
